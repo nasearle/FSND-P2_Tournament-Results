@@ -11,8 +11,8 @@ virtual machine with VirtualBox.
 * tournament_test.py - contains a series of test functions to check if tournament.py is working correctly
 	
 ### Instructions:
-This app requires Vagrant (https://www.vagrantup.com/) and
-VirtualBox (https://www.virtualbox.org/wiki/Downloads) to run.
+This app requires [Vagrant](https://www.vagrantup.com/) and
+[VirtualBox](https://www.virtualbox.org/wiki/Downloads) to run.
 
 Clone the FSND-P2_Tournament-Results repository to your local machine.
 Open a GitBash in the repository and enter the command $ vagrant up. 
