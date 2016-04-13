@@ -1,31 +1,23 @@
 ## Tournament Results
-A system for matching players in a Swiss Tournament and recording the results in a database.
-This app is written in Python and SQL and was created in a Vagrant virtual machine with VirtualBox.
+A system for matching players in a [Swiss Tournament](https://en.wikipedia.org/wiki/Swiss-system_tournament) 
+and recording the results in a database. This app is written in Python and SQL and was created in a Vagrant
+virtual machine with VirtualBox.
 	
 ### Included files:
-* fullstack-nanodegree-vm
-	* README.txt
-	* vagrant
-		* pg_config.sh and Vagrantfile - files necessary for Vagrant to work
-		* .vagrant - more necessary Vagrant stuff
-		* tournament - contains the relevant files of this project				
-			* tournament.sql - sets up the database and tables to store the results of the tournament
-			* tournament.py - contains the functions to enter data into and retrieve data from the database
-			* tournament_test.py - contains a series of test functions to check if tournament.py is working correctly
+*  Vagrantfile and pg_config.sh- Vagrant configuration files
+* .vagrant - Vagrant vm files
+* tournament.sql - sets up the database and tables to store the results of the tournament
+* tournament.py - contains the functions to enter data into and retrieve data from the database
+* tournament_test.py - contains a series of test functions to check if tournament.py is working correctly
 	
 ### Instructions:
 This app requires Vagrant (https://www.vagrantup.com/) and
 VirtualBox (https://www.virtualbox.org/wiki/Downloads) to run.
 
-Fork the fullstack-nanodegree-vm repository so 
-that you have a version within your GitHub account. Clone your 
-version of the fullstack-nanodegree-vm repository to your
-local machine.
-
-Navigate to the tournament folder in the repository, open a 
-GitBash there and enter the command $ vagrant up. When vagrant 
-has finished starting up, enter the command $ vagrant ssh. Enter
-$ cd /vagrant and then $ cd tournament.
+Clone the FSND-P2_Tournament-Results repository to your local machine.
+Open a GitBash in the repository and enter the command $ vagrant up. 
+When vagrant has finished starting up, enter the command $ vagrant ssh.
+Enter $ cd /vagrant and then $ cd tournament.
 
 To create the database to store the players and results of our
 tournament, we need to use the psql command line interface. Enter
