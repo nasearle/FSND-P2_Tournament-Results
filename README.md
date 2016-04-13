@@ -4,7 +4,7 @@ and recording the results in a database. This app is written in Python and SQL a
 virtual machine with VirtualBox.
 	
 ### Included files:
-*  Vagrantfile and pg_config.sh- Vagrant configuration files
+*  Vagrantfile and pg_config.sh - Vagrant configuration files
 * .vagrant - Vagrant vm files
 * tournament.sql - sets up the database and tables to store the results of the tournament
 * tournament.py - contains the functions to enter data into and retrieve data from the database
@@ -16,8 +16,8 @@ This app requires [Vagrant](https://www.vagrantup.com/) and
 
 Clone the FSND-P2_Tournament-Results repository to your local machine.
 Open a GitBash in the repository and enter the command $ vagrant up. 
-When vagrant has finished starting up, enter the command $ vagrant ssh.
-Enter $ cd /vagrant and then $ cd tournament.
+When vagrant has finished starting up, enter the command $ vagrant ssh,
+and the $ cd /vagrant.
 
 To create the database to store the players and results of our
 tournament, we need to use the psql command line interface. Enter
